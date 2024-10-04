@@ -1,3 +1,25 @@
+# Calculadora de IMC
+
+Este proyecto es una aplicación web que permite calcular el Índice de Masa Corporal (IMC) del usuario en función de su peso y altura. El IMC es una métrica utilizada para determinar si una persona tiene un peso saludable en relación con su altura. La aplicación está construida utilizando **Next.js** y **Tailwind CSS**, proporcionando una interfaz limpia y moderna.
+
+## Características
+
+- Cálculo automático del IMC basado en los datos ingresados por el usuario (peso y altura).
+- Visualización del resultado con una barra de progreso que indica la categoría del IMC
+- Interfaz responsiva, adaptada a dispositivos móviles y pantallas más grandes.
+- Validación de inputs: manejo de entradas no válidas (valores negativos o no numéricos).
+
+## Componentes Creados
+
+### 1. **CalculadoraIMC**
+   Este es el componente principal de la aplicación. Permite al usuario ingresar su peso (en kilogramos) y altura (en metros), y calcula el IMC basado en estos valores. Muestra el resultado numérico en pantalla junto con un mensaje que indica la categoría del IMC.
+
+### 2. **Barra de Progreso (ProgressBar)**
+   Este componente muestra visualmente el IMC calculado con una barra que se llena de acuerdo al valor del IMC. Dependiendo de la categoría, la barra cambia de color y se ajusta al valor correcto:
+
+### 3. **Interfaz y Estilos**
+   La aplicación está estilizada utilizando **Tailwind CSS** para asegurar un diseño limpio y responsivo. Los estilos de la barra de progreso y los mensajes cambian dinámicamente según el resultado del cálculo.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
